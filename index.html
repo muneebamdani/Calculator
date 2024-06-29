@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | Muneeb Amdani | Js assignment 02</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn.ttgtmedia.com/rms/onlineimages/Math_programming_calc_figure_2_half_column_mobile.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+   <div class="flex-container">
+    <div class="display">
+  <input type="text" name="display" id="display">
+</div>
+    <div class="buttons">
+    <button type="button" onclick="display.value =''">AC</button>
+    <button type="button" onclick="display.value = display.value.toString().slice(0,-1)">DEL</button>
+    <button type="button" onclick="display.value +='%'">%</button>
+    <button type="button" onclick="display.value +='/'">/</button>
+    
+
+    <button type="button" onclick="display.value +='7'">7</button>
+    <button type="button" onclick="display.value +='8'">8</button>
+    <button type="button" onclick="display.value +='9'">9</button>
+    <button type="button" onclick="display.value +='*'">*</button>
+    
+
+    <button type="button" onclick="display.value +='4'">4</button>
+    <button type="button" onclick="display.value +='5'">5</button>
+    <button type="button" onclick="display.value +='6'">6</button>
+    <button type="button" onclick="display.value +='-'">-</button>
+    
+
+    <button type="button" onclick="display.value +='1'">1</button>
+    <button type="button" onclick="display.value +='2'">2</button>
+    <button type="button" onclick="display.value +='3'">3</button>
+    <button type="button" onclick="display.value +='+'">+</button>
+    
+
+    <button type="button" onclick="display.value +='.'">.</button>
+    <button type="button" onclick="display.value +='0'">0</button>
+    <button type="button" onclick="display.value +='00'">00</button>
+    <button type="button" class="equal" onclick="display.value= eval(display.value)">=</button>
+    </div>
+   </div>
+
+
+
+
+
+
+
+   </script src="./app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+@media (max-width:550px){
+    .flex-container{
+        height: 75vh;
+        margin: 5%;
+    }
+}
