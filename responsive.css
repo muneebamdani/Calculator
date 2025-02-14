@@ -4,3 +4,8 @@
         margin: 5%;
     }
 }
+@media(min-width:700px){
+    .flex-container{
+    width: 30%;
+}
+}

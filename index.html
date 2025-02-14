@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator | Muneeb Amdani | Js assignment 02</title>
+    <title>Calculator | Muneeb Amdani</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://cdn.ttgtmedia.com/rms/onlineimages/Math_programming_calc_figure_2_half_column_mobile.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/calculator-logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-   <div class="flex-container">
+   <div class="flex-container animate__animated animate__fadeInDownBig">
     <div class="display">
-  <input type="text" name="display" id="display">
+  <input type="text" name="display" id="display" readonly>
 </div>
     <div class="buttons">
     <button type="button" onclick="display.value =''">AC</button>
@@ -42,16 +43,8 @@
     <button type="button" onclick="display.value +='0'">0</button>
     <button type="button" onclick="display.value +='00'">00</button>
     <button type="button" class="equal" onclick="display.value= eval(display.value)">=</button>
+    <script src="./app.js"></script>
     </div>
    </div>
-
-
-
-
-
-
-
-   </script src="./app.js"></script>
-
 </body>
 </html>

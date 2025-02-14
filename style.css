@@ -1,24 +1,25 @@
 .flex-container{
     text-align: center;
+
+    border-color: grey;
+    border-style: solid;
 }
 .flex-container{
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 28%;
     margin-right: 28%;
-   background-color: grey;
-   border-radius: 5%;
    height: 85vh;
+   background-color: black;
+   border-radius: 10px;
 }
 #display{
     width: 84%;
     height: 20vh;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: xx-large;
     padding-top: 5%;
-    border: none;
-    border-radius: 5%;
     margin: 7%;
     text-align: right;
 }
@@ -27,14 +28,16 @@ button{
     border-radius: 5%;
     border:0;
     height: 7vh;
-    background-color: orange;
     cursor: pointer;
     margin: 1%;
-    
+    color: lightblue;
+    background-color: transparent;
+    font-size: larger;
 }
-button:hover{
-    background-color: yellow;
-}
-body{
-    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210311/pngtree-calculator-childrens-day-toy-background-image_582237.jpg');
+body{ 
+    background-image: url("./images/img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
